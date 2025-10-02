@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "data": {
+    "id": 4567,
+    "name": "Wireless Headphones",
+    "brand": "TechCorp",
+    "category": "Electronics",
+    "price": "129.99",
+    "inStock": true,
+    "rating": "4.5",
+    "description": "High-quality wireless headphones with excellent sound quality and noise cancellation.",
+    "createdAt": "2025-01-27T10:30:00.000Z"
+  },
+  "timestamp": "2025-01-27T10:30:00.000Z",
+  "message": "Random product data generated successfully"
+}

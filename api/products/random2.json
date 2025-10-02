@@ -1,0 +1,16 @@
+{
+  "success": true,
+  "data": {
+    "id": 8901,
+    "name": "Gaming Laptop",
+    "brand": "GameTech",
+    "category": "Electronics",
+    "price": "1599.99",
+    "inStock": true,
+    "rating": "4.8",
+    "description": "High-performance gaming laptop with RTX graphics and fast SSD storage.",
+    "createdAt": "2025-01-27T11:15:00.000Z"
+  },
+  "timestamp": "2025-01-27T11:15:00.000Z",
+  "message": "Random product data generated successfully"
+}

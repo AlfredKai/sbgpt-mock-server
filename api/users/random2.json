@@ -1,0 +1,15 @@
+{
+  "success": true,
+  "data": {
+    "id": 789,
+    "name": "Bob Smith",
+    "age": 34,
+    "email": "bob.smith@example.com",
+    "city": "London",
+    "hobby": "Cooking",
+    "isActive": false,
+    "createdAt": "2025-01-27T11:15:00.000Z"
+  },
+  "timestamp": "2025-01-27T11:15:00.000Z",
+  "message": "Random user data generated successfully"
+}
