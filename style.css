@@ -1,0 +1,143 @@
+/* Reset and base styles */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    line-height: 1.6;
+    color: #333;
+    background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background: white;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    border-radius: 10px;
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+}
+
+/* Header styles */
+header {
+    text-align: center;
+    padding: 40px 0;
+    border-bottom: 2px solid #f0f0f0;
+    margin-bottom: 40px;
+}
+
+header h1 {
+    color: #667eea;
+    font-size: 2.5em;
+    margin-bottom: 10px;
+    font-weight: 300;
+}
+
+header p {
+    color: #666;
+    font-size: 1.2em;
+}
+
+/* Main content */
+main {
+    padding: 0 20px;
+}
+
+section {
+    margin-bottom: 40px;
+}
+
+h2 {
+    color: #667eea;
+    font-size: 1.8em;
+    margin-bottom: 15px;
+    border-left: 4px solid #667eea;
+    padding-left: 15px;
+}
+
+p {
+    margin-bottom: 15px;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Features list */
+.features ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+.features li {
+    padding: 10px 0;
+    font-size: 1.1em;
+    color: #555;
+}
+
+/* Contact links */
+.links {
+    margin-top: 20px;
+}
+
+.links a {
+    display: inline-block;
+    background: #667eea;
+    color: white;
+    padding: 12px 25px;
+    text-decoration: none;
+    border-radius: 25px;
+    margin-right: 15px;
+    margin-bottom: 10px;
+    transition: all 0.3s ease;
+    font-weight: 500;
+}
+
+.links a:hover {
+    background: #764ba2;
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    padding: 30px 0;
+    border-top: 2px solid #f0f0f0;
+    margin-top: 40px;
+    color: #666;
+}
+
+/* Responsive design */
+@media (max-width: 768px) {
+    .container {
+        margin: 20px;
+        padding: 15px;
+    }
+    
+    header h1 {
+        font-size: 2em;
+    }
+    
+    header p {
+        font-size: 1em;
+    }
+    
+    main {
+        padding: 0 10px;
+    }
+    
+    h2 {
+        font-size: 1.5em;
+    }
+    
+    .links a {
+        display: block;
+        margin-right: 0;
+        text-align: center;
+    }
+}
